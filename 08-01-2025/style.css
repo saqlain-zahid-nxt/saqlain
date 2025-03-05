@@ -1,0 +1,67 @@
+body {
+  background-color: white;
+  color: darkblue;
+  font-size: 18px;
+}
+body div h2 {
+  color: red;
+  font-size: 35px;
+  font-weight: bold;
+  border: 5px solid blue;
+  background: yellow;
+}
+body div h3 {
+  background: yellow;
+  color: blue;
+}
+body h2 {
+  background: yellow;
+  color: rgb(202, 78, 78);
+}
+body h2 {
+  color: rgb(208, 92, 50);
+}
+body h3 {
+  color: rgb(178, 178, 236);
+}
+body h4 {
+  color: rgb(10, 23, 15);
+}
+body h5 {
+  color: rgb(56, 184, 158);
+}
+
+input[type=button], input[type=reset] {
+  padding: 10px;
+  width: 50%;
+  background: rgb(38, 133, 242);
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+input[type=submit] {
+  padding: 10px;
+  width: 100%;
+  background: rgb(38, 133, 242);
+  color: white;
+  border-radius: 20px;
+}
+
+.button-basic, .button-submit {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  color: red;
+  background: green !important;
+}
+
+.button-submit {
+  padding: 10px;
+  width: 30%;
+  background: rgb(38, 133, 242);
+  color: white;
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */

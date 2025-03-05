@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="main-section">
+        <div class="history" id="history"></div>
+        <input type="text" id="prompt">
+
+        <div class="btn-area">
+            <button class="btn big" onclick="append_to_prompt('C')">BACKSPACE</button>
+            <button class="btn big" onclick="append_to_prompt('AC')">AC</button>
+            <button class="btn" onclick="append_to_prompt(9)">9</button>
+            <button class="btn" onclick="append_to_prompt(8)">8</button>
+            <button class="btn" onclick="append_to_prompt('+')">+</button>
+            <button class="btn" onclick="append_to_prompt(7)">7</button>
+            <button class="btn" onclick="append_to_prompt(6)">6</button>
+            <button class="btn" onclick="append_to_prompt('-')">-</button>
+            <button class="btn" onclick="append_to_prompt(5)">5</button>
+            <button class="btn" onclick="append_to_prompt(4)">4</button>
+            <button class="btn" onclick="append_to_prompt('*')">*</button>
+            <button class="btn" onclick="append_to_prompt(3)">3</button>
+            <button class="btn" onclick="append_to_prompt(2)">2</button>
+            <button class="btn" onclick="append_to_prompt('/')">/</button>
+            <button class="btn" onclick="append_to_prompt(1)">1</button>
+            <button class="btn" onclick="append_to_prompt(0)">0</button>
+            <button class="btn" onclick="append_to_prompt('=')">=</button>
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

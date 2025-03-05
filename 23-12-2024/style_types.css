@@ -1,0 +1,70 @@
+/* CSS SELECTORS */
+
+/* By Tag */
+p {
+    color: red;
+    font-size: 25px;
+}
+
+p {
+    color: purple;
+}
+
+span {
+    color: blue;
+    font-size: 20px;
+    display: block;
+}
+
+/* By ID */
+#last {
+    border-bottom: 4px dashed black;
+    display: inline-block;
+    color: blue;
+}
+
+/* By Class */
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.fs15 {
+    font-size: 15px;
+}
+
+.fs20 {
+    font-size: 20px;
+}
+
+
+/* CSS Combinators */
+/* child selector */
+
+/* all child */
+.div-1 span {
+    color: blueviolet;
+}
+
+/* direct child */
+.div-1 > span {
+    color: green;
+}
+
+/* sibling selector */
+
+/* all sibling */
+.div-1 ~ span {
+    color: goldenrod;
+}
+
+/* direct sibling */
+.div-1 + span {
+    color: red;
+}
+
+
+

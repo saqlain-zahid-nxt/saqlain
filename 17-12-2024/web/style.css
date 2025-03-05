@@ -1,0 +1,79 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    font-size: 100px;
+}
+
+strong {
+    animation: infinite nacho 13s;
+
+    margin-bottom: 40px;
+
+}
+
+a {
+    background-color: red;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin-top: 40px;
+    display: inline-block;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+@keyframes nacho {
+    0% {
+        transform: translate(50px, 50px);
+        zoom: 1;
+        font-size: 20px;
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+        zoom: 0;
+        font-size: 10px;
+    }
+
+    100% {
+        transform: translate(50px, 50px);
+        zoom: 1;
+        font-size: 20px;
+    }
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    font-size: 20px;
+}
+
+th {
+    color: purple;
+}
+
+tbody {
+    font-size: 15px;
+}
+
+td {
+    color: aqua;
+    background-color: black;
+}
+
+th, td {
+    text-align: center;
+    vertical-align: center;
+
+    padding: 10px;
+}

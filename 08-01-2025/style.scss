@@ -1,0 +1,63 @@
+@import "variables";
+@import "mixins";
+
+
+body {
+    background-color:white;
+    color: $textcolor;
+    font-size: $fontsize;
+    
+    div{
+        $bgcolor:yellow !global;
+        h2{
+            @include important-text;
+            background: $bgcolor;
+        }
+        h3{
+            background: $bgcolor;
+            color:blue;
+        }
+    }
+
+    h2{
+        background: $bgcolor;
+        color:$buttonbgcolor;
+    }
+    h2{
+        color:rgb(208, 92, 50);
+    }
+    h3{
+        color:rgb(178, 178, 236);
+    }
+    h4{
+        color:rgb(10, 23, 15);
+    }
+    h5{
+        color:rgb(56, 184, 158);
+    }
+}
+
+
+input[type=button], input[type=reset] {
+    @include soft-button(50%);
+    cursor: pointer;
+  }
+input[type=submit] {
+    @include soft-button(100%);
+}
+
+.button-basic  {
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    color:red;
+    background:green !important;
+}
+  
+  
+.button-submit  {
+    @include soft-button(30%);
+    @extend .button-basic;
+}

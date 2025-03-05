@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hello World</title>
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 20px;
+            }
+            section {
+                margin-bottom: 30px;
+            }
+
+            .preview {
+                border: 1px solid #ddd;
+                padding: 10px;
+                background-color: #f9f9f9;
+                margin-top: 10px;
+                overflow: auto;
+                transition: all 0.3s ease-in-out;
+            }
+
+        </style>
+
+    </head>
+    
+    <body>
+        <h1>Tag</h1>
+        <p>Instructions given for the markup in Html lengauge referenced as Tags</p>
+
+        <h1>Types of Tags</h1>
+
+        <ol>
+            <li>
+                <h3>Paired Tags</h3>
+                <p>Tags needs closing tag as well are called paired tags, e.g p, div, headings etc</p>
+            </li>
+
+            <li>
+                <h3>Slef Closing tags</h3>
+                <p>Tags that doesn't require closing tags are self closing tags, e.g br, hr etc</p>
+            </li>
+        </ol>
+
+
+        <h1>Symantic and non-symantic tags</h1>
+
+        <ol>
+            <li>
+                <h3>Symantic Tags</h3>
+                <p>The tag explains it's contents by it's name is a symantic tag, like header, article</p>
+            </li>
+
+            <li>
+                <h3>Non Symantic Tags</h3>
+                <p>The tag which not explains it's contents is non-symantic tag, like div, span</p>
+            </li>
+        </ol>
+
+        <h1>Block Level Elements and Inline Elements</h1>
+        <ol>
+            <li>
+                <h3>Block Level Element</h3>
+                <p>These tags by default aquire all the width and the next tag will start from the next line, p, div</p>
+            </li>
+
+            <li>
+                <h3>Inline Level Element</h3>
+                <p>These tags by default aquire just the width necessry for it's contents and the next tag will start right after them, like img, a, button, span etc</p>
+            </li>
+        </ol>
+
+        <h1>Comprehensive HTML Tags Documentation</h1>
+
+        <section>
+            <h2>Document Structure</h2>
+            <p><strong>html</strong>: The root element of an HTML document.</p>
+            <div class="preview">
+                <code>&lt;html&gt;...&lt;/html&gt;</code>
+            </div>
+            <p><strong>head</strong>: Contains metadata and links to external resources.</p>
+            <div class="preview">
+                <code>&lt;head&gt;...&lt;/head&gt;</code>
+            </div>
+            <p><strong>body</strong>: Encloses the content visible to users.</p>
+            <div class="preview">
+                <code>&lt;body&gt;...&lt;/body&gt;</code>
+            </div>
+        </section>
+    
+        <section>
+            <h2>Basic Text Tags</h2>
+            <p><strong>h1-h6</strong>: Define headings from largest (<code>h1</code>) to smallest (<code>h6</code>).</p>
+            <div class="preview">
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+                <h3>Heading 3</h3>
+                <h4>Heading 4</h4>
+                <h5>Heading 5</h5>
+                <h6>Heading 6</h6>
+            </div>
+            <p><strong>p</strong>: Defines a paragraph.</p>
+            <div class="preview">
+                <p>This is a paragraph of text.</p>
+            </div>
+            <p><strong>b</strong>: Bold text.</p>
+            <div class="preview">
+                <b>This text is bold.</b>
+            </div>
+            <p><strong>i</strong>: Italic text.</p>
+            <div class="preview">
+                <i>This text is italicized.</i>
+            </div>
+            <p><strong>strong</strong>: Strong importance (usually bold).</p>
+            <div class="preview">
+                <strong>Important text.</strong>
+            </div>
+            <p><strong>em</strong>: Emphasized text (usually italic).</p>
+            <div class="preview">
+                <em>Emphasized text.</em>
+            </div>
+            <p><strong>pre</strong>: Preformatted text.</p>
+            <div class="preview">
+                <pre>Preformatted
+    text retains
+    spacing.</pre>
+            </div>
+        </section>
+    
+        <section>
+            <h2>Links and Navigation</h2>
+            <p><strong>a</strong>: Creates hyperlinks.</p>
+            <div class="preview">
+                <a href="https://example.com">Visit Example</a>
+            </div>
+            <p><strong>nav</strong>: Defines navigation links.</p>
+            <div class="preview">
+                <nav>
+                    <a href="#">Home</a> | <a href="#">About</a> | <a href="#">Contact</a>
+                </nav>
+            </div>
+        </section>
+    
+        <section>
+            <h2>Images</h2>
+            <p><strong>img</strong>: Embeds an image.</p>
+            <div class="preview">
+                <img src="10.jpeg" alt="Sample Image">
+            </div>
+        </section>
+    
+        <section>
+            <h2>Lists</h2>
+            <p><strong>ul</strong>: Unordered list.</p>
+            <div class="preview">
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                </ul>
+            </div>
+            <p><strong>ol</strong>: Ordered list.</p>
+            <div class="preview">
+                <ol>
+                    <li>First item</li>
+                    <li>Second item</li>
+                </ol>
+            </div>
+            <p><strong>dl</strong>: Definition list with <code>dt</code> (term) and <code>dd</code> (definition).</p>
+            <div class="preview">
+                <dl>
+                    <dt>HTML</dt>
+                    <dd>Hypertext Markup Language</dd>
+                    <dt>CSS</dt>
+                    <dd>Cascading Style Sheets</dd>
+                </dl>
+            </div>
+        </section>
+    
+        <section>
+            <h2>Tables</h2>
+            <p><strong>table</strong>: Defines a table structure.</p>
+            <div class="preview">
+                <table border="1">
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                    </tr>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    
+        <section>
+            <h2>Forms</h2>
+            <p><strong>form</strong>: Defines a form.</p>
+            <div class="preview">
+                <form>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    
+        <section>
+            <h2>Multimedia</h2>
+            <p><strong>audio</strong>: Embeds audio content.</p>
+            <div class="preview">
+                <audio controls>
+                    <source src="11.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+            <p><strong>video</strong>: Embeds video content.</p>
+            <div class="preview">
+                <video controls>
+                    <source src="12.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+    
+        <section>
+            <h2>Semantic Elements</h2>
+            <p><strong>header</strong>, <strong>footer</strong>, <strong>article</strong>, <strong>section</strong>, <strong>aside</strong>: Define meaningful structure.</p>
+            <div class="preview">
+                <header>Header Section</header>
+                <article>Article Section</article>
+                <section>Section Content</section>
+                <aside>Aside Content</aside>
+                <footer>Footer Section</footer>
+            </div>
+        </section>
+    
+    
+        <section>
+            <h2>IFrame</h2>
+            <p><strong>IFrame</strong>, Tag used to display another site inside your website.</p>
+            <div class="preview">
+                <iframe src="../17-12-2024/web/index.html" title="NexTash" width="50%" height="500px"></iframe>
+            </div>
+        </section>
+    
+    </body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <!-- CSS -->
+
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        ul {
+            list-style: none;
+            padding: 20px;
+            margin: 0;
+        }
+
+        li {
+            background-color: #eee;
+            padding: 10px 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        dt {
+           font-size: 20px;
+           font-weight: bold;
+           margin-bottom: 10px;
+        }
+
+        dd {
+            font-size: 20px;
+        }
+
+        p {
+            margin: 10px 0;
+            font-size: 20px;
+        }
+
+        pre {
+            background-color: black;
+            color: green;
+            font-size: 20px;
+            border-radius: 6px;
+            padding-top: 15px;
+            line-height: 1;
+            width: 80%;
+            margin-left: 10%;
+        }
+    </style>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>CSS</h1>
+
+    <h3>Type of CSS</h3>
+    <ul>
+        <li>
+            <dl>
+                <dt>Inline CSS</dt>
+                <dd>We can style into the tag itself by using it's style attribute, this approach is called Inline CSS.</dd>
+            </dl>
+
+            <p>For Example: we applied color to a paragraph using style attribute by inline method</p>
+            
+            <pre>
+                &lt;p style="color: red"&gt; Hello World! &lt;/p&gt;
+            </pre>
+
+            <p>Output:</p>
+            <p style="color: red">Hello World!</p>
+        </li>
+
+        <li>
+            <dl>
+                <dt>Internal CSS</dt>
+                <dd>We can style into the style tag in same file, this approach is called Internal CSS.</dd>
+            </dl>
+
+            <p>For Example: we applied background-color to a span using style tag by Internal method.</p>
+            
+            <pre>
+                &lt;style&gt;
+                    span {
+                        background-color: green;
+                        color: white;
+                    }
+                &lt;/style&gt;
+            
+                &lt;span&gt;Hy, my name is John.&lt;/span&gt;
+            </pre>
+
+            <p>Output:</p>
+            <style>
+                span {
+                    background-color: green;
+                    color: white;
+                }
+            </style>
+        
+            <span>Hy, my name is John.</span>
+        </li>
+
+        <li>
+            <dl>
+                <dt>External CSS</dt>
+                <dd>In this mechanism we create another css file and than attach it to the document by &lt;link /&gt; tag.</dd>
+            </dl>
+
+            <p>For Example: we applied heartbeat animation to the pre tag by External CSS.</p>
+            
+            <pre>
+                &lt;link rel="stylesheet" href="./style.css"&gt;
+            </pre>
+        </li>
+    </ul>
+
+</body>
+</html>
